@@ -1,0 +1,6 @@
+boto3
+requests
+requests-aws4auth
+langchain-aws
+langchain-core
+langchain-community
