@@ -1,14 +1,14 @@
-# 📑 RAG System: Hyundai Vehicle Manual Chatbot
+# RAG System: Hyundai Vehicle Manual Chatbot
 
 [cite_start]현대자동차(MX5 HEV) 차량 사용자 매뉴얼 PDF를 기반으로 한 **고성능 RAG(Retrieval-Augmented Generation) 시스템**입니다. [cite: 1, 15] [cite_start]단순한 텍스트 검색을 넘어, LLM 에이전트가 문맥을 파악하여 정보를 나누는 **Agentic Chunking** 기술을 적용하여 답변의 정확도를 극대화했습니다. [cite: 4, 113]
 
-## 🚀 핵심 기술 (Core Tech Stack)
+## 핵심 기술 (Core Tech Stack)
 * [cite_start]**LLM 에이전트**: AWS Bedrock (Claude 3.5 Sonnet) [cite: 3, 38, 39]
 * [cite_start]**Vector DB**: Amazon OpenSearch [cite: 3, 37]
 * [cite_start]**프레임워크**: LangChain [cite: 3, 34, 35]
 * [cite_start]**임베딩 모델**: Amazon Titan Embedding [cite: 47, 201]
 
-## 🧠 주요 특징 (Key Features)
+## 주요 특징 (Key Features)
 
 ### 1. Agentic Chunking (주제 기반 동적 분할)
 [cite_start]단순히 글자 수로 나누는 기존 방식(Simple Chunking)과 달리, LLM이 문맥의 의미 변화를 감지하여 논리적 주제 단위로 청크를 구성합니다. [cite: 4, 225]
